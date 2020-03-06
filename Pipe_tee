@@ -1,7 +1,21 @@
+<<comment
+Task 1: 
+a) List of all the contents in /etc directory and redirect those contents to a file called “file1.txt”. 
+b) List of all the contents in /run directory and redirect those contents to a file called “file2.txt”. 
+Task 2: 
+a) Combine the contents of file1.txt and file2.txt into another file called “unsorted.txt”.
+b) Also reverse the combined contents of “file1.txt” and “file2.txt” output to another file called “reversed.txt”.
+
+comment
+
+#.........staring of code...........
+
+
 ls –a /etc >file1.txt 
 ls -a /run >file2.txt
 cat file1.txt file2.txt | tee unsorted.txt | sort -r >reversed.txt
 
+#..........end of code .......... 
 
 #  "ls" cmd is used to list out the contents.
 #  "-a" when used along with ls cmd, it lists all the contents including hidden files.
