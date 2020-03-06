@@ -11,7 +11,7 @@ comment
 #.........staring of code...........
 
 
-ls –a /etc >file1.txt 
+ls -a /etc >file1.txt 
 ls -a /run >file2.txt
 cat file1.txt file2.txt | tee unsorted.txt | sort -r >reversed.txt 
 
