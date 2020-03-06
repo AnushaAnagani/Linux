@@ -1,3 +1,21 @@
 ls –a /etc >file1.txt 
 ls -a /run >file2.txt
 cat file1.txt file2.txt | tee unsorted.txt | sort -r >reversed.txt
+
+
+#  "ls" cmd is used to list out the contents.
+#  "-a" when used along with ls cmd, it lists all the contents including hidden files.
+#  "cat" cmd is used to concatenate(combine) files.
+#  "|" (pipe) cmd is used to pass standard output(STDOUT) of one cmd as the standard input(STDIN) to another cmd.
+#  "tee" cmd is used when we want to save the ouput of one(first) cmd to a file as well as pass that output as an input to another cmd.
+#  "sort" is used to sort the contents of a file.
+#  "-r" option when used along with "sort" cmd helps to sort in reverse order. 
+
+#  Using the command at line 1, all the contents in /etc folder are listed and redirected them to file1.txt.
+#  Using the Command at line 2, all the contents in /run folder are listed and redirected them to file2.txt.
+
+#  In this case, file1.txt and file2.txt will be created in the home directory of mine by default,
+#  as I did not mention the directory name or path for "file1.txt" and file2.txt.
+
+
+
