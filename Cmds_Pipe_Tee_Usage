@@ -19,7 +19,8 @@ cat file1.txt file2.txt | tee unsorted.txt | sort -r >reversed.txt
 Using cat cmd the file1 and file2 are combined and
 using "tee" cmd the output of "cat" cmd is saved in a file called "unsorted.txt" as well as it is passed as a
 standard input to the "sort" cmd. Pipe(|) cmd is used to join the cat and sort cmds.
-sort command got its stdin from cat command's stdout in this case and its ouput is redirected to "reversed.txt"
+sort command got its stdin from cat command's stdout in this case and its ouput is redirected to "reversed.txt".
+
 comment
 
 #..........end of code .......... 
