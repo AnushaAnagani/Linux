@@ -8,6 +8,7 @@ Also reverse the combined contents of “file1.txt” and “file2.txt” output
 
 https://github.com/AnushaAnagani/Linux/blob/master/Linux_Assignment_Pipes.pdf
 https://github.com/AnushaAnagani/Linux/blob/master/Cmds_Pipe_Tee_Usage
+https://www.loom.com/share/5c95622073a64cbeb2034c407384b3b0
 
 ## “Super Secret” Project (usage of Locate and Find commands)
 ### Task 1
